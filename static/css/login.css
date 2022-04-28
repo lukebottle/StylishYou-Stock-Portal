@@ -1,0 +1,105 @@
+@import "./theme.css";
+
+.bg-color-left {
+  background: var(--color-1);
+  width: 50%;
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+}
+html,
+body {
+  background-color: var(--color-4);
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.MainLogo {
+  z-index: 10;
+  left: 1px;
+}
+section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: var(--color-1);
+  font-size: 25px;
+}
+.container {
+  padding-top: 60px;
+  background-color: white;
+  width: 800px;
+  margin-top: 150px;
+  margin-right: 50px;
+  height: 400px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-left: 1300px;
+  z-index: 1;
+}
+.MainImage {
+  width: 1365px;
+  position: absolute;
+  margin-left: 150px;
+}
+
+h1 {
+  color: white;
+  padding-right: 50px;
+  padding-left: 15px;
+}
+h2 {
+  font-weight: lighter;
+}
+form {
+  padding: 20px 0;
+}
+#UserHead,
+#PassHead,
+form input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0.5px solid lightgrey;
+  border-radius: 30px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: var(--color-1);
+  transition-duration: 0.25s;
+  font-weight: 300;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.InputSmall {
+  width: 250px;
+}
+
+form input:focus {
+  background-color: white;
+  width: 300px;
+  color: var(--color-1);
+}
+form button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  background-color: var(--color-1);
+  border: 0;
+  padding: 10px 15px;
+  color: #f2f2f2;
+  border-radius: 3px;
+  height: 60px;
+  width: 300px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+}
+form button:hover {
+  background-color: var(--color-3);
+}

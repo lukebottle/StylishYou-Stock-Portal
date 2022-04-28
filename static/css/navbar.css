@@ -1,0 +1,33 @@
+@import "./theme.css";
+body {
+  font-size: 25px;
+  background-color: var(--color-4);
+}
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+.bg-color
+ {
+  background-color: var(--color-1);
+ 
+}
+.nav-link, .nav-item{
+  color: var(--color-2);
+}
+.fix {
+  position: fixed;
+  bottom: 0px;
+  margin: -150px;
+  z-index: -1;
+}
+.navbar-brand{
+  font-size: 25px;
+  color: var(--color-2)
+}
+.navbar-brand:hover{
+  color: #f2f2f2;
+}
+
+

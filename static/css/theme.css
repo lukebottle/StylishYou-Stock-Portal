@@ -1,0 +1,13 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  /* Light Theme Colors */
+body[data-theme="theme"] {
+    --color-1: #011627;
+    --color-2: white;
+    --color-3: #941a2c;
+    --color-4: #f2f2f2;
+  }
+
+
+
