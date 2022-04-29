@@ -94,7 +94,6 @@
                     //Creates brand options. 
                     if ($_GET['Brand'] || $_GET['Product']) {
                         echo "<div id='GenderDropDown'>
-                        <H1>BRAND</H1>
                          <p>Gender</p>
                          <select name='Brand' class='form-control' id='exampleFormControlSelect1'>";
 
@@ -105,7 +104,7 @@
                     }
                     if ($_GET['Product']) {
                         echo '
-                        <p>Brand</p>
+                        <p>Product Type</p>
                         <select name="Brand" class="form-control" id="exampleFormControlSelect1">';
 
                         while ($RowBrand = odbc_fetch_array($BrandResults))
@@ -221,7 +220,6 @@
         if (BrandCheck == "1") {
             document.querySelector('.SearchImg').src = "static/css/Images/StylishYou_Logo_Main.png";
             document.querySelector('.SearchImg').style.paddingLeft = '0px';
-            document.getElementById('SearchHeader').innerText = "GIRLS PRODUCTS"
             let BtnPrimary = document.getElementById('btnPageColour');
             let BrandHeader = document.getElementById('SearchHeader')
             let DisableBrand = document.getElementById('BrandBody');

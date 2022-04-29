@@ -28,7 +28,7 @@ section {
 }
 .container {
   padding-top: 60px;
-  background-color: white;
+  background-color: var(--color-2);
   width: 800px;
   margin-top: 150px;
   margin-right: 50px;
@@ -46,7 +46,7 @@ section {
 }
 
 h1 {
-  color: white;
+  color: var(--color-2);
   padding-right: 50px;
   padding-left: 15px;
 }
@@ -80,7 +80,7 @@ form input {
 }
 
 form input:focus {
-  background-color: white;
+  background-color: var(--color-2);
   width: 300px;
   color: var(--color-1);
 }
@@ -92,7 +92,7 @@ form button {
   background-color: var(--color-1);
   border: 0;
   padding: 10px 15px;
-  color: #f2f2f2;
+  color: var(--color-4);
   border-radius: 3px;
   height: 60px;
   width: 300px;
@@ -100,6 +100,4 @@ form button {
   font-size: 18px;
   transition-duration: 0.25s;
 }
-form button:hover {
-  background-color: var(--color-3);
-}
+

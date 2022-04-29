@@ -8,12 +8,11 @@ body {
     padding-left: 240px;
   }
 }
-.bg-color
- {
+.bg-color {
   background-color: var(--color-1);
- 
 }
-.nav-link, .nav-item{
+.nav-link,
+.nav-item {
   color: var(--color-2);
 }
 .fix {
@@ -22,12 +21,13 @@ body {
   margin: -150px;
   z-index: -1;
 }
-.navbar-brand{
+.navbar-brand {
   font-size: 25px;
-  color: var(--color-2)
+  color: var(--color-2);
 }
-.navbar-brand:hover{
-  color: #f2f2f2;
+.navbar-brand:hover {
+  color: var(--color-4);
 }
-
-
+a:hover{
+  color: var(--color-4);
+}
