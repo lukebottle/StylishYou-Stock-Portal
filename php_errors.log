@@ -964,3 +964,15 @@ Stack trace:
 [29-Apr-2022 14:56:16 UTC] PHP Warning:  Undefined array key "Gender" in C:\inetpub\wwwroot\StylishYou\search.php on line 41
 [29-Apr-2022 14:56:16 UTC] PHP Warning:  Undefined array key "Brand" in C:\inetpub\wwwroot\StylishYou\search.php on line 95
 [29-Apr-2022 14:56:16 UTC] PHP Warning:  Undefined variable $BrandSearch in C:\inetpub\wwwroot\StylishYou\search.php on line 186
+[29-Apr-2022 14:59:20 UTC] PHP Warning:  Undefined array key "Brand" in C:\inetpub\wwwroot\StylishYou\search.php on line 21
+[29-Apr-2022 14:59:20 UTC] PHP Warning:  Undefined array key "Brand" in C:\inetpub\wwwroot\StylishYou\search.php on line 95
+[29-Apr-2022 14:59:20 UTC] PHP Warning:  Undefined array key "Product" in C:\inetpub\wwwroot\StylishYou\search.php on line 95
+[29-Apr-2022 14:59:20 UTC] PHP Warning:  Undefined array key "Product" in C:\inetpub\wwwroot\StylishYou\search.php on line 105
+[29-Apr-2022 14:59:20 UTC] PHP Warning:  Undefined variable $BrandSearch in C:\inetpub\wwwroot\StylishYou\search.php on line 186
+[29-Apr-2022 14:59:20 UTC] PHP Warning:  Undefined variable $ProductSearch in C:\inetpub\wwwroot\StylishYou\search.php on line 187
+[29-Apr-2022 14:59:24 UTC] PHP Warning:  Undefined array key "Brand" in C:\inetpub\wwwroot\StylishYou\search.php on line 21
+[29-Apr-2022 14:59:24 UTC] PHP Warning:  Undefined array key "Brand" in C:\inetpub\wwwroot\StylishYou\search.php on line 95
+[29-Apr-2022 14:59:24 UTC] PHP Warning:  Undefined array key "Product" in C:\inetpub\wwwroot\StylishYou\search.php on line 95
+[29-Apr-2022 14:59:24 UTC] PHP Warning:  Undefined array key "Product" in C:\inetpub\wwwroot\StylishYou\search.php on line 105
+[29-Apr-2022 14:59:24 UTC] PHP Warning:  Undefined variable $BrandSearch in C:\inetpub\wwwroot\StylishYou\search.php on line 186
+[29-Apr-2022 14:59:24 UTC] PHP Warning:  Undefined variable $ProductSearch in C:\inetpub\wwwroot\StylishYou\search.php on line 187
